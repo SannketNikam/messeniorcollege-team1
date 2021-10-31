@@ -12,9 +12,9 @@ We have created a portal for address updation. It will work on desktop and mobil
 
 ## Requirements 
 
-Python
-flask
-flask-mysqlalchemy
+Python,
+flask,
+flask-mysqlalchemy.
 
 ## API Reference
 
