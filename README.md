@@ -21,6 +21,7 @@ We have created a portal for address updation. It will work on desktop and mobil
 * Python
 * Flask
 * flask-mysqlalchemy
+* Py-Tesseract (OCR-API)
  
 ## API Reference
 
