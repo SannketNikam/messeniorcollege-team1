@@ -1,8 +1,13 @@
+# Theme 1
 # Problem Statement :
 
-Address Updation Using Supporting Document.
+## *Address Updation Using Supporting Document*.
+
 FOR THIS - User have to login with Aadhaar number and he will get an OTP on registered mobile number.
 After entering the correct OTP user will be able to click the picture of address. Image will be captured and address will be extracted.
+
+System Diagram
+
 
 
 ## Approach
@@ -18,8 +23,9 @@ We have created a portal for address updation. It will work on desktop and mobil
  
 ## API Reference
 
+* *OTP Authorization API*:- User will be provided by otp once he enters Adhaar No. 
+* *Authentication*:- It is to verify the OTP given by the user.
 
-## Test out app directly without installing 
 
  
 <!---
