@@ -1,6 +1,6 @@
 # Problem Statement :
 
-Address Updation Using Suppprting Document.
+Address Updation Using Supporting Document.
 FOR THIS - User have to login with Aadhaar number and he will get an OTP on registered mobile number.
 After entering the correct OTP user will be able to click the picture of address. Image will be captured and address will be extracted.
 
