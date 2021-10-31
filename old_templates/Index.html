@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+        /* CSS Reset */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #UIDAI {
+        /* border: 2px solid red; */
+        display: inline;
+        margin: 10px 0px 0px 20px;
+    }
+
+    #Aadhar_Logo {
+        /* border: 2px solid blue; */
+        display: inline;
+        margin: 0px 0px 0px 810px;
+    }
+
+    a>img {
+        margin: 15px 0px 0px 0px;
+    }
+
+    #GOI {
+        /* border: 2px solid green; */
+        display: block;
+        margin: 0px 0px 20px 20px;
+    }
+
+    .navbar {
+        margin: 10px 0px 0px 0px;
+        background-image: linear-gradient(to right, rgb(0, 0, 133), rgb(0, 225, 255));
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        padding: 5px 5px;
+        margin: 13px 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 3px 3px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .search {
+        float: right;
+        /* color: white; */
+        padding: 14px 40px;
+        font-size: 18px;
+    }
+
+    .search>input,
+    .btn {
+        font-size: 16px;
+        border: transparent;
+        border-radius: 8px;
+        padding: 5px 10px 4px 3px;
+    }
+
+    .btn {
+        border: 0.5px solid black;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .content>p {
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin: 80px 0px 240px 0px;
+    }
+
+    .footer {
+        background-color: rgb(211, 246, 255);
+        height: 80px;
+    }
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Unique Identification Authority of India | Government of India</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2 id="UIDAI">Unique Identification Authority of India</h2>
+        <a id="Aadhar_Logo" href="Index.html"><img src="../static/aadhaar_english_logo.svg" alt="Aadhar Logo"></a>
+        <p id="GOI">Government of India</p>
+    </div>
+    <hr>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">My Aadhar</a></li>
+            <li><a href="#">About UIDAI</a></li>
+            <li><a href="#">Ecosystem</a></li>
+            <li><a href="#">Media & Resources</a></li>
+            <li><a href="#">Contact & Support</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search here...">
+                <button class="btn">Search</button>
+            </div>
+        </ul>
+    </div>
+    <div class="content">
+        <p>All Content Goes Here...</p>
+        <form action="/done" method="POST">
+                Enter your UID : <input type="text" name="uid" value="otp">
+                {{recaptcha}}
+                <button type="submit">Get OTP</button>
+    </form>
+    </div>
+    <div class="footer">
+        <p>copyright&copy; 2019 Unique Identification Authority of India All Rights Reserved</p>
+    </div>
+</body>
+
+</html>

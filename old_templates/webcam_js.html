@@ -1,0 +1,15 @@
+<html>
+    <head><title>Test Webcam</title></head>
+    <body>
+        <center><video id="video" width="640" height="480" autoplay></video></center>
+    <script>
+        var video = document.getElementById('video');
+    if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+    video.src = window.URL.createObjectURL(stream);
+    video.play();
+ });
+}
+    </script>
+    </body>
+</html>
